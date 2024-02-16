@@ -1,0 +1,48 @@
+.nav {
+    padding-top: 5%;
+    position: sticky;
+    top: 0;
+    background-color: #EFEFEF;
+    z-index: 99;
+
+}
+.nav_links a {
+    color: whitesmoke;
+}
+
+.nav_links a:hover {
+    text-decoration: underline wavy;
+}
+
+.nav_bar {
+    height: 100vh;
+    background-color: #EFEFEF;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#root > div > div.nav > header > nav > ul > a:nth-child(1) > li {
+    color: black;
+    list-style-type: none;
+}
+
+#root > div > div.nav > header > nav > ul > a:nth-child(2) > li {
+    color: black;
+    list-style-type: none;
+}
+
+.nav_links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 3rem;
+}
+
+.hamburger svg:hover {
+    cursor: pointer;
+    z-index: 99;
+}

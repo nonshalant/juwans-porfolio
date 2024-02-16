@@ -1,0 +1,30 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 3% 0;
+    line-height: 1.9;
+}
+
+.landing h1 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 3.7rem;
+}
+ 
+.landing p {
+    font-family: 'Martian Mono', monospace;
+}
+
+.landing span {
+    font-size: 3rem;
+}
+
+.hamburger {
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1024px){
+    .renderPorfolio img {
+        width: 50%;
+    }
+}

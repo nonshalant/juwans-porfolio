@@ -1,0 +1,52 @@
+.renderPortfolio .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin: auto;
+}
+
+.renderPortfolio .img {
+    width: 95%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.renderPortfolio a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.renderPortfolio .video-container {
+    width: 50%;
+    margin: auto;
+}
+
+.video-container .portfolio-video {
+    width: 100%;
+    z-index: -99;
+}
+
+.footer_text {
+    padding: 0 1.5%;
+    margin: 0 1%;
+    font-size: 1.4rem;
+}
+
+.footer_text p {
+    padding: 2% ;
+}
+
+@media screen and (min-width: 1024px){
+    .renderPortfolio .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+    .renderPortfolio .img {
+        width: 200px;
+    }
+    .footer_text {
+        margin-top: 5%;
+    }
+}

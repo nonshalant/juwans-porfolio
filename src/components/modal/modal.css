@@ -1,0 +1,38 @@
+.modal {
+    height: 80vh;
+}
+
+.modal_container {
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 1%;
+}
+
+.modal_container h1{
+    font-size: 3rem;
+}
+
+.modal a {
+    margin-top: 8%;
+    color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .modal_container img {
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .modal_container img {
+        width: 600px;
+        margin: auto;
+    }
+    .modal a {
+        margin-top: 0;
+    }
+}
